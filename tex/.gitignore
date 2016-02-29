@@ -51,12 +51,8 @@ acs-*.bib
 # cprotect
 *.cpt
 
-# fixme
-*.lox
-
-#(r)(e)ledmac/(r)(e)ledpar
+#(e)ledmac/(e)ledpar
 *.end
-*.?end
 *.[1-9]
 *.[1-9][0-9]
 *.[1-9][0-9][0-9]
@@ -76,7 +72,6 @@ acs-*.bib
 *.glg
 *.glo
 *.gls
-*.glsdefs
 
 # gnuplottex
 *-gnuplottex-*
@@ -86,7 +81,6 @@ acs-*.bib
 
 # knitr
 *-concordance.tex
-# TODO Comment the next line if you want to keep your tikz graphics files
 *.tikz
 *-tikzDictionary
 
@@ -101,8 +95,6 @@ acs-*.bib
 
 # minitoc
 *.maf
-*.mlf
-*.mlt
 *.mtc
 *.mtc[0-9]
 *.mtc[1-9][0-9]
@@ -134,9 +126,12 @@ sympy-plots-for-*.tex/
 *.upa
 *.upb
 
-# pythontex
+#pythontex
 *.pytxcode
 pythontex-files-*/
+
+# Texpad
+.texpadtmp
 
 # TikZ & PGF
 *.dpth
@@ -152,23 +147,13 @@ pythontex-files-*/
 # xypic precompiled matrices
 *.xyc
 
+# WinEdt
+*.bak
+*.sav
+
 # endfloat
 *.ttt
 *.fff
 
 # Latexian
 TSWLatexianTemp*
-
-## Editors:
-# WinEdt
-*.bak
-*.sav
-
-# Texpad
-.texpadtmp
-
-# Kile
-*.backup
-
-# KBibTeX
-*~*
