@@ -5,7 +5,7 @@ This is my first attemt at a tutorial, so bear with me as I will make mistakes, 
 
 ##Chapters
 
-###0. Software installation and environment setup
+###[0. Software installation and environment setup] (0.%20Setup/README.MD)
 
 ###1. SELECT
 
