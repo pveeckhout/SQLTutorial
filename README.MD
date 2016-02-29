@@ -5,7 +5,8 @@ This is my first attemt at a tutorial, so bear with me as I will make mistakes, 
 
 ##Chapters
 
-###[0. Software installation and environment setup] (0.%20Setup/README.MD)
+###[0. Software and environment setup] (0.%20Setup/README.MD)
+Chapter detailing which software we will use during this tutorial. In this chapter I will also guide you through the software installation an setup of the Database used.
 
 ###1. SELECT
 
