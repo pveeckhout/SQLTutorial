@@ -1,0 +1,374 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Simple Sectioned Essay Template
+% LaTeX Template
+%
+% This template has been downloaded from:
+% http://www.latextemplates.com
+%
+% Note:
+% The \lipsum[#] commands throughout this template generate dummy text
+% to fill the template out. These commands should all be removed when 
+% writing essay content.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[12pt]{article} % Default font size is 12pt, it can be changed here
+
+\usepackage{geometry} % Required to change the page size to A4
+\geometry{a4paper} % Set the page size to be A4 as opposed to the default US Letter
+
+\usepackage{graphicx} % Required for including pictures
+
+\usepackage{float} % Allows putting an [H] in \begin{figure} to specify the exact location of the figure
+\usepackage{wrapfig} % Allows in-line images such as the example fish picture
+
+\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
+
+\linespread{1.2} % Line spacing
+
+%\setlength\parindent{0pt} % Uncomment to remove all indentation from paragraphs
+
+\graphicspath{{./Figures/}} % Specifies the directory where pictures are stored
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	TITLE PAGE
+%----------------------------------------------------------------------------------------
+
+\begin{titlepage}
+
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}} % Defines a new command for the horizontal lines, change thickness here
+
+\center % Center everything on the page
+
+\HRule \\[0.4cm]
+{ \huge \bfseries SQLTutorial}\\[0.4cm] % Title of your document
+\HRule \\[1.5cm]
+
+\begin{minipage}{0.4\textwidth}
+\begin{flushleft} \large
+\emph{Author:}\\
+Pieter \textsc{Van Eeckhout} % Your name
+\end{flushleft}
+\end{minipage}
+~
+\begin{minipage}{0.4\textwidth}
+\begin{flushright} \large
+\end{flushright}
+\end{minipage}\\[4cm]
+
+{\large \today}\\[3cm] % Date, change the \today to a set date if you want to be precise
+
+%\includegraphics{Logo}\\[1cm] % Include a department/university logo - this will require the graphicx package
+
+\vfill % Fill the rest of the page with whitespace
+
+\end{titlepage}
+
+%----------------------------------------------------------------------------------------
+%	TABLE OF CONTENTS
+%----------------------------------------------------------------------------------------
+
+\tableofcontents % Include a table of contents
+
+\newpage % Begins the essay on a new page instead of on the same page as the table of contents 
+
+%----------------------------------------------------------------------------------------
+%	INTRODUCTION
+%----------------------------------------------------------------------------------------
+
+\section{Preamble} % Major section
+
+This is my first attemt at a tutorial, so bear with me as I will make mistakes, gloss over certain topics and generaly am still figuring out to do this kind of thing.
+
+%------------------------------------------------
+
+\section{About SQL} % Major section
+
+%------------------------------------------------
+
+\section{Software overview and environment setup} % Major section
+
+%----------------------------------------------
+
+\section{SQL and types of data} % Major section
+
+%------------------------------------------------
+
+\section{Manipulating data} % Major section
+
+%------------------------------------------------
+
+\subsection{selecting records} % Sub-sub-section
+
+%------------------------------------------------
+
+\subsubsection{Filtering records} % Sub-sub-section
+
+%------------------------------------------------
+
+\subsubsection{Using wildcards} % Sub-sub-section
+
+%------------------------------------------------
+
+\subsubsection{Combining filters} % Sub-sub-section
+
+%------------------------------------------------
+
+\subsubsection{Ordering} % Sub-sub-section
+
+%------------------------------------------------
+
+\subsection{Adding records} % Sub-section
+
+%------------------------------------------------
+
+\subsection{Updating records} % Sub-section
+
+%------------------------------------------------
+
+\subsection{Deleting records} % Sub-section
+
+%------------------------------------------------
+
+\subsection{Using aliases} % Sub-section
+
+%------------------------------------------------
+
+\subsection{Combining multiple tables} % sub-section
+
+%------------------------------------------------
+
+\subsubsection{INNER JOIN} % Sub-section
+
+%------------------------------------------------
+
+\subsubsection{LEFT JOIN} % Sub-section
+
+%------------------------------------------------
+
+\subsubsection{RIGHT JOIN} % Sub-section
+
+%------------------------------------------------
+
+\subsubsection{FULL JOIN} % Sub-section
+
+%------------------------------------------------
+
+\subsubsection{UNION} % Sub-section
+
+%------------------------------------------------
+
+\subsection{Using build-in functions} % Major section
+
+%------------------------------------------------
+
+\subsubsection{Minumum} % Sub-section
+
+%------------------------------------------------
+
+\subsubsection{Maximum} % Sub-section
+
+%------------------------------------------------
+
+\subsubsection{Sum} % Sub-section
+
+%------------------------------------------------
+
+\subsubsection{Counting records} % Sub-section
+
+%------------------------------------------------
+
+\subsubsection{Average} % Sub-section
+
+%------------------------------------------------
+
+\subsubsection{Finding the first record} % Sub-section
+
+%------------------------------------------------
+
+\subsubsection{Finding the last record} % Sub-section
+
+%------------------------------------------------
+
+\subsubsection{Grouping aggregates} % Sub-section
+
+%------------------------------------------------
+
+\subsubsection{Filtering on aggregates} % Sub-section
+
+%------------------------------------------------
+
+\section{Database administration} % Major section
+
+%------------------------------------------------
+
+\subsection{Creating a database} % Sub-section
+
+%------------------------------------------------
+
+\subsection{Creating a table} % Sub-section
+
+%------------------------------------------------
+
+\subsection{Setting up constraints} % Sub-section
+
+%------------------------------------------------
+
+\subsubsection{Empty values} % Sub-sub-section
+
+%------------------------------------------------
+
+\subsubsection{Unique values} % Sub-sub-section
+
+%------------------------------------------------
+
+\subsubsection{Primary keys} % Sub-sub-section
+
+%------------------------------------------------
+
+\subsubsection{Foreign keys} % Sub-sub-section
+
+%------------------------------------------------
+
+\subsubsection{Checks} % Sub-sub-section
+
+%------------------------------------------------
+
+\subsubsection{defaults} % Sub-sub-section
+
+%------------------------------------------------
+
+\subsubsection{Creating indexes} % Sub-sub-section
+
+%------------------------------------------------
+
+\subsection{Altering a table} % Sub-sub-section
+
+%------------------------------------------------
+
+\subsection{Removing a table} % Sub-sub-section
+
+%------------------------------------------------
+
+\subsection{Creating data views} % Sub-sub-section
+
+%------------------------------------------------
+
+\section{ADDENDUM: Handling NULL} % Sub-sub-section
+
+%------------------------------------------------
+
+\section{ADDENDUM: Handling Dates} % Sub-sub-section
+
+%------------------------------------------------
+
+
+\subsubsection{Subsubsection 1} % Sub-sub-section
+
+\lipsum[3] % Dummy text
+
+\begin{figure}[H] % Example image
+\center{\includegraphics[width=0.5\linewidth]{placeholder.png}}
+\caption{Example image.}
+\label{fig:speciation}
+\end{figure}
+
+%------------------------------------------------
+
+\subsubsection{Subsubsection 2} % Sub-sub-section
+
+\lipsum[4] % Dummy text
+
+%----------------------------------------------------------------------------------------
+%	MAJOR SECTION 1
+%----------------------------------------------------------------------------------------
+
+\section{Content Section} % Major section
+
+\lipsum[5] % Dummy text
+
+%------------------------------------------------
+
+\subsection{Subsection 1} % Sub-section
+
+\subsubsection{Subsubsection 1} % Sub-sub-section
+
+\lipsum[6] % Dummy text
+
+%------------------------------------------------
+
+\subsubsection{Subsubsection 2} % Sub-sub-section
+
+\lipsum[6] % Dummy text
+\begin{wrapfigure}{l}{0.4\textwidth} % Inline image example
+  \begin{center}
+    \includegraphics[width=0.38\textwidth]{fish.png}
+  \end{center}
+  \caption{Fish}
+\end{wrapfigure}
+\lipsum[7-8] % Dummy text
+
+%------------------------------------------------
+
+\subsubsection{Subsubsection 3} % Sub-sub-section
+
+\begin{description} % Numbered list example
+
+\item[First] \hfill \\
+\lipsum[9] % Dummy text
+
+\item[Second] \hfill \\
+\lipsum[10] % Dummy text
+
+\item[Third] \hfill \\
+\lipsum[11] % Dummy text
+
+\end{description} 
+
+%----------------------------------------------------------------------------------------
+%	MAJOR SECTION X - TEMPLATE - UNCOMMENT AND FILL IN
+%----------------------------------------------------------------------------------------
+
+%\section{Content Section}
+
+%\subsection{Subsection 1} % Sub-section
+
+% Content
+
+%------------------------------------------------
+
+%\subsection{Subsection 2} % Sub-section
+
+% Content
+
+%----------------------------------------------------------------------------------------
+%	CONCLUSION
+%----------------------------------------------------------------------------------------
+
+\section{Conclusion} % Major section
+
+\lipsum[12-13]
+
+%----------------------------------------------------------------------------------------
+%	BIBLIOGRAPHY
+%----------------------------------------------------------------------------------------
+
+\begin{thebibliography}{99} % Bibliography - this is intentionally simple in this template
+
+\bibitem[Figueredo and Wolf, 2009]{Figueredo:2009dg}
+Figueredo, A.~J. and Wolf, P. S.~A. (2009).
+\newblock Assortative pairing and life history strategy - a cross-cultural
+  study.
+\newblock {\em Human Nature}, 20:317--330.
+ 
+\end{thebibliography}
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
